@@ -1,0 +1,122 @@
+{
+  "contactList": [
+    {
+      "title": "A",
+      "data": [
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+         {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        }
+      ]
+    },
+    {
+      "title": "B",
+      "data": [
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+         {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        }
+      ]
+    },
+    {
+      "title": "C",
+      "data": [
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+        {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        },
+         {
+          "id": 1,
+          "name": "Parvati",
+          "phoneNumber": "8429171010",
+          "type": "personal",
+          "isWhatsapp": "True",
+          "profilePicture": ""
+        }
+      ]
+    }
+   
+  ],
+  "User":[
+    {
+    "title":"Shubham",
+  "ID":1
+  }
+  ]
+}
