@@ -4,6 +4,7 @@ import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 export type AppStackParamList = {
     ViewContacts: undefined;
     AddContact: undefined;
+    SplashScreen: undefined;
 };
 
 export type AppStackNav<RouteName extends keyof AppStackParamList> = {

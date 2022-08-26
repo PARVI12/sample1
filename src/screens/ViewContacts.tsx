@@ -1,5 +1,5 @@
 import {NavigationContainer} from '@react-navigation/native';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {AppStackNav} from './navigation/stacks/app-nav';
 import {
   View,
@@ -13,11 +13,23 @@ import {
   ScrollView,
   TouchableOpacity,
   Alert,
+  ActivityIndicator,
 } from 'react-native';
 
 export const ViewContacts: React.FC<AppStackNav<'ViewContacts'>> = ({
   navigation,
 }) => {
+  
+  
+  const [loading, setloading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setloading (false);     
+    }, 1000);
+  }, []);
+
+  
   const handleClick = () => {
     Alert.alert('this is ok');
   };
@@ -121,6 +133,15 @@ export const ViewContacts: React.FC<AppStackNav<'ViewContacts'>> = ({
       ],
     },
   ];
+
+  if (loading) {
+		return (
+			<View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+				<ActivityIndicator size={30} color= 'red' />
+			</View>
+		);
+	}
+
 
   return (
     <View style={styles.MainContainer}>
